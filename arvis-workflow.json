@@ -12,7 +12,7 @@
       "command": "emoj",
       "title": "Find relevant emoji",
       "subtitle": "",
-      "script_filter": "node index.js \"$1\"",
+      "script_filter": "node index.js \"$1\" PUT_YOUR_API_KEY_HERE",
       "running_subtext": "Searching...",
       "withspace": true,
       "arg_type": "required",

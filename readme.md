@@ -1,4 +1,4 @@
-# arvis-emoj
+# arvis-emoji
 
 > [Arvis](https://github.com/jopemachine/arvis) workflow to find relevant emoji from text
 
@@ -9,15 +9,24 @@ Check out the [Dango app](http://getdango.com) if you want something like this o
 
 ## Install
 
+1. Install by npm
+
 ```
-$ npm install --global alfred-emoj
+$ npm install --global arvis-emoji
 ```
 
-*Requires [Node.js](https://nodejs.org) 8+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
+*Requires [Node.js](https://nodejs.org) 8+.*
+
+2. Acquire your API key in below site.
+
+[https://emoji-api.com/](https://emoji-api.com/)
+
+3. Open `arvis-workflow.json` and Replace `PUT_YOUR_API_KEY_HERE` with your API key.
+
 
 ## Usage
 
-In Alfred, type `emoj`, <kbd>Enter</kbd>, and some text, to find relevant emoji.
+In Arvis, type `emoj`, <kbd>Enter</kbd>, and some text, to find relevant emoji.
 
 Select an emoji and press <kbd>Enter</kbd> to copy it to the clipboard.
 

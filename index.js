@@ -1,25 +1,25 @@
-'use strict';
-const arvish = require('@jopemachine/arvish');
+"use strict";
+const arvish = require("@jopemachine/arvish");
 
 (async () => {
-	const data = await arvish.fetch('https://emoji.getdango.com/api/emoji', {
-		query: {
-			q: arvish.input
-		}
-	});
+	const data = await arvish
+		.fetch(
+			`https://emoji-api.com/emojis?search=${arvish.input}&access_key=${process.argv[3]}`
+		)
+		.catch(console.error);
 
-	let all = '';
+	let all = "";
 
-	const items = data.results.map(item => {
-		const emoji = item.text;
+	const items = data.map((item) => {
+		const emoji = item.character;
 		all += emoji;
 
 		return {
 			title: emoji,
 			arg: emoji,
 			icon: {
-				path: ' ' // Hide icon
-			}
+				path: " ", // Hide icon
+			},
 		};
 	});
 
@@ -27,10 +27,9 @@ const arvish = require('@jopemachine/arvish');
 		title: all,
 		arg: all,
 		icon: {
-			path: ' '
-		}
+			path: " ",
+		},
 	});
 
 	arvish.output(items);
 })();
-
