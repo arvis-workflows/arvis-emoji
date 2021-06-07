@@ -1,0 +1,28 @@
+{
+  "$schema": "https://github.com/jopemachine/arvis-core/blob/master/workflow-schema.json",
+  "category": "Productivity",
+  "createdby": "Sindre Sorhus",
+  "name": "Emoj",
+  "readme": "",
+  "enabled": true,
+  "defaultIcon": "icon.png",
+  "commands": [
+    {
+      "type": "scriptfilter",
+      "command": "emoj",
+      "title": "Find relevant emoji",
+      "subtitle": "",
+      "script_filter": "node index.js \"$1\"",
+      "running_subtext": "Searching...",
+      "withspace": true,
+      "arg_type": "required",
+      "action": [
+        {
+          "modifiers": "normal",
+          "type": "clipboard",
+          "text": "{query}"
+        }
+      ]
+    }
+  ]
+}
