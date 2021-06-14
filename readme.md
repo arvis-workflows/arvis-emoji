@@ -7,6 +7,12 @@
 Uses the API from this great article on [Emoji & Deep Learning](http://getdango.com/emoji-and-deep-learning.html).<br>
 Check out the [Dango app](http://getdango.com) if you want something like this on your phone.
 
+## 🔗 This workflow is converted from [alfred-workflow](https://github.com/sindresorhus/alfred-emoj).
+
+* Note that there might be some code change or different actions from the original workflow.
+
+* Marked original workflow's creator to author.
+
 ## Install
 
 1. Install by npm

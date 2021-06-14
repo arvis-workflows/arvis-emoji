@@ -1,5 +1,5 @@
 "use strict";
-const arvish = require("@jopemachine/arvish");
+const arvish = require("arvish");
 
 (async () => {
 	const data = await arvish

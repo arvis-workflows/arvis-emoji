@@ -1,6 +1,6 @@
 {
-	"name": "@jopemachine/arvis-emoji",
-	"version": "0.2.0",
+	"name": "arvis-emoji",
+	"version": "0.0.1",
 	"description": "Arvis workflow to find relevant emoji from text",
 	"license": "MIT",
 	"author": {
@@ -37,7 +37,7 @@
 		"arvish"
 	],
 	"dependencies": {
-		"@jopemachine/arvish": "^0.2.4"
+		"arvish": "^0.0.3"
 	},
 	"devDependencies": {
 		"ava": "^0.25.0",
