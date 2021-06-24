@@ -6,17 +6,20 @@
   "readme": "",
   "enabled": true,
   "defaultIcon": "icon.png",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "variables": {
+    "apiKey": "PUT_YOUR_API_KEY_HERE"
+  },
   "commands": [
     {
       "type": "scriptFilter",
       "command": "emoj",
       "title": "Find relevant emoji",
       "subtitle": "",
-      "scriptFilter": "node index.js \"$1\" PUT_YOUR_API_KEY_HERE",
+      "scriptFilter": "node index.js \"{query}\" {var:apiKey}",
       "runningSubtext": "Searching...",
       "withspace": true,
-      "arg_type": "required",
+      "argType": "required",
       "actions": [
         {
           "modifiers": "normal",
