@@ -1,6 +1,6 @@
 {
 	"name": "arvis-emoji",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "Arvis workflow to find relevant emoji from text",
 	"license": "MIT",
 	"author": {
