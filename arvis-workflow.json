@@ -2,11 +2,13 @@
   "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
   "category": "Productivity",
   "creator": "Sindre Sorhus",
-  "name": "arvis-emoj",
+  "name": "arvis-emoji",
   "readme": "",
   "enabled": true,
   "defaultIcon": "icon.png",
   "version": "0.0.5",
+  "webAddress": "https://github.com/jopemachine/arvis-emoji",
+  "description": "Arvis workflow to find relevant emoji from text",
   "variables": {
     "apiKey": "PUT_YOUR_API_KEY_HERE"
   },
