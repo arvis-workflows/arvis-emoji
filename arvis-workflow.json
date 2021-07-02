@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
   "category": "Productivity",
   "creator": "Sindre Sorhus",
-  "name": "Emoj",
+  "name": "arvis-emoj",
   "readme": "",
   "enabled": true,
   "defaultIcon": "icon.png",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "variables": {
     "apiKey": "PUT_YOUR_API_KEY_HERE"
   },
